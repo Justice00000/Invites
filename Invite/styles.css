@@ -1,0 +1,340 @@
+body {
+    margin: 0;
+    font-family: 'Arial ', sans-serif;
+}
+
+.Heading {
+width: 1245px;
+height: 87px;
+flex-shrink: 0;
+border-bottom: 1px solid #E9904D;
+background: transparent;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+
+.logo {
+width: 130px;
+height: 58px;
+flex-shrink: 0;
+margin-left: 50px;
+}
+
+.login {
+display: inline-flex;
+height: 42px;
+padding: 11px 42px 12px 42px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 6px;
+background: var(--Primary-Colour, #741C47);
+order: 2;
+margin-right: 100px;
+}
+
+h1 {
+color: var(--White, #FFF);
+font-family: Helvetica Neue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 117.647%;
+}
+
+.picsart {
+    position: relative;
+    display: block;
+}
+
+.picsart img {
+    width: 80%;
+    height: auto;
+    display: block;
+    position: absolute;
+    margin-left: 120px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.picsart h1 {
+color: var(--White, #FFF);
+font-family: Helvetica Neue;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+z-index: 1;
+color: #fff;
+margin-left: 610px;
+padding: 20px;
+width: 584.541px;
+top: 90px;
+left: 20px;
+}
+
+.picsart p {
+color: var(--White, #FFF);
+font-family: Helvetica Neue;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height:
+position: relative;
+z-index: 1;
+color: #fff;
+margin-left: 650px;
+margin-bottom: 50px;
+padding: 20px;
+width: 291px;
+}
+
+.share {
+height: 48px;
+top: 471px;
+left: 765px;
+border-radius: 6px;
+margin-top: -100px;
+font-family: "Helvetica Neue", sans-serif;
+}
+
+.share h1 {
+color: var(--Primary-Colour, #741C47);
+text-align: center;
+font-family: "Helvetica Neue", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+width: 145px;
+padding: 14px 23px;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+background: var(--White, #FFF);
+gap: 10px;
+}
+
+.shared {
+display: flex;
+}
+
+.share a {
+color: var(--Primary-Colour, white);
+text-align: right;
+text-decoration: none;
+font-family: "Helvetica Neue", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+width: 145px;
+padding: 14px 23px;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+gap: 10px;
+margin-left: 850px;
+margin-top: 5px;
+}
+
+.share svg {
+color: var(--Primary-Colour, black);
+font-size: 24px;
+}
+
+.img2 img {
+width: 550px;
+height: 700px;
+flex-shrink: 0;
+border-radius: 20px;
+background: url(Color.png), lightgray 50% / cover no-repeat;
+margin-top: 50px;
+left: -100px;
+}
+
+.Des {
+width: 600px;
+height: 280px;
+top: 992px;
+right: -200px;
+width: 600px;
+margin-top: 550px;
+text-align: block;
+}
+
+.Des h1 {
+color: #000;
+font-family: "Helvetica Neue", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+top: 500px;
+text-align: right;
+margin-right: 400px;
+}
+
+.Des p {
+color: var(--Main-text, #000);
+font-family: "Helvetica Neue", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 65px;
+}
+
+.location{
+width: 1000px;
+height: px;
+margin-left: 65px;
+margin-top: 50px;
+font-family: "Helvetica Neue", sans-serif;
+}
+
+.hours h1{
+color: #000;
+font-family: "Helvetica Neue", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.time {
+  display: flex;
+}
+
+.time p {
+color: var(--Gray-600, #7E7E7E);
+font-family: "Helvetica Neue";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.time h2 {
+color: var(--Main-text, #000);
+font-family: "Helvetica Neue";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.date{
+display: flex;
+}
+
+.date h3 {
+color: var(--Gray-600, #7E7E7E);
+font-family: "Helvetica Neue", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -1px;
+}
+
+.date h4 {
+color: var(--Main-text, #000);
+font-family: "Helvetica Neue", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -1px;
+}
+
+.contact {
+margin-left: 65px;
+}
+
+.email {
+display: flex;
+width: Hug (240px)
+height: Hug (27px)
+top: 1497px
+left: 141px
+gap: 17px
+}
+
+.email h1 {
+color: #000;
+text-align: center;
+font-family: "Helvetica Neue", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 0%;
+margin-left: 30px;
+}
+
+.number {
+display: flex;
+}
+
+.number h3 {
+color: #000;
+text-align: center;
+font-family: "Helvetica Neue", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 0%;
+margin-left: 30px;
+}
+
+.svg {
+width: 252px;
+height: 48px;
+top: 1610px;
+margin-right: 142px;
+margin-top: 30px;
+}
+
+.right {
+height: 260px;
+flex-shrink: 0;
+left: -500px;
+text-align: right;
+margin-top: -740px;
+margin-right: 50px;
+}
+
+.right .map h1 {
+color: #000;
+font-family: "Helvetica Neue", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+top: 500px;
+text-align: right;
+margin-right: 300px;
+}
+
+.vic {
+display: flex;
+text-align: right;
+margin-left: 730px;
+}
+
+.vic p {
+margin-left: 20px;
+}
+
+.dress {
+margin-top: 50px;
+margin-left: 730px;
+text-align: left;
+}
